@@ -1,0 +1,17 @@
+name: crop-counter
+channels:
+  - pytorch
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.10
+  - pip
+  - pytorch
+  - torchvision
+  - numpy
+  - matplotlib
+  - pillow
+  - opencv
+  - tifffile
+  - pip:
+    - rasterio
